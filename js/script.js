@@ -1,14 +1,11 @@
 console.log('JS!')
 
 
-function getRandomInt1() {
+function getRandomInt() {
     return Math.floor(Math.random() * 6);
 
 } 
 
-function getRandomInt2 () {
-   return Math.floor(Math.random() * 6);
-}  
 
 
 
@@ -21,8 +18,8 @@ let index1;
 let index2;
 
 
-index1 = getRandomInt1( 0, 5 );
-index2 = getRandomInt2( 0, 5 );
+index1 = getRandomInt( 0, 5 );
+index2 = getRandomInt( 0, 5 );
 
 
 
